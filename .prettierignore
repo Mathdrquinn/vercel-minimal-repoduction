@@ -1,0 +1,38 @@
+# NPM
+package-lock.json
+node_modules/
+.idea
+.npmrc
+.npmignore
+# Yarn
+yarn-error.log
+yarn.lock
+
+# Config
+.prettierignore
+.gitignore
+.env*
+
+# Images
+*.jpg
+*.jpeg
+*.svg
+*.png
+
+# IDE configurations
+.vscode/
+
+# Generated files
+dist/
+coverage/
+.next/
+
+# OS
+.DS_Store
+
+# Assets
+*.woff
+*.woff2
+
+# Non-asset images
+*.ico
