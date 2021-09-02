@@ -1,37 +1,12 @@
 {
-    "name": "shift-paq",
-    "version": "0.1.0",
+    "name": "next-runtime-config",
     "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "prettier": "prettier --write \"./**/*.*\"",
-        "prettier:check": "prettier --check \"./**/*.*\"",
-        "lint": "npx eslint '*/**/*.{js,jsx,ts,tsx}' --fix",
-        "lint:check": "npx eslint '*/**/*.{js,jsx,ts,tsx}' --max-warnings=0"
+      "dev": "next dev",
+      "build": "next build"
     },
     "dependencies": {
-        "next": "9.5.5",
-        "react": "^16.12.0",
-        "react-dom": "^16.12.0"
-    },
-    "devDependencies": {
-        "@babel/core": "^7.14.8",
-        "@sensei/shift-prettier": "1.0.0",
-        "@types/node": "16.3.3",
-        "@types/react": "^16.9.17",
-        "@types/react-dom": "^16.9.4",
-        "husky": "4.2.5",
-        "prettier": "2.0.5",
-        "pretty-quick": "2.0.1",
-        "typescript": "^3.7.5"
-    },
-    "eslintConfig": {
-        "extends": "react-app"
-    },
-    "husky": {
-        "hooks": {
-            "pre-commit": "pretty-quick --staged"
-        }
+        "next": "^11.1.2",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
     }
 }
